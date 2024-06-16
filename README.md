@@ -1,6 +1,6 @@
 # Rechargable Power Supply for a Diode Line Laser
 
-Do you like throwing darts? I wasted many a good evening in colelge throwing darts, shooting pool, and drinking beer. I have a dart board in the hallway outside
+Do you like throwing darts? I wasted many a good evening in college throwing darts, shooting pool, and drinking beer. I have a dart board in the hallway outside
 the bedrooms in our home, and I wasn't happy with the cheap products sold for projecting a laser line on the floor, so I thought I'd make my own. Fun fact, the 
 dart throwing line is called the *toe line* or *oche*. 
 
@@ -15,7 +15,7 @@ This looks boring, I know. it's a box with tethered laser.
 
 But wait! The inside is more interesting:
 
-<img src="IMG_9283.jpeg" width="400">
+<img src="IMG_9286.jpeg" width="400">
 
 There's a lot more going on here than you might expect, so let me break it down.
 
