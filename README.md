@@ -42,7 +42,7 @@ without having to take the laser off the wall. Here's a clearer look at the guts
 
 <img src="IMG_9280.jpeg" width="400">
 
-The charging board has 3 LEDs on it. One to indicate power when USB is plugged in (red), and two more indicate charging status (yellow for charging and green for charged). 
+The charging board has 3 LEDs on it. One to indicate power when USB is plugged in (red), and two more to indicate charging status (amber for charging and green for charged). 
 
 <img src="259-08.jpg" width="400">
 
@@ -53,18 +53,20 @@ I got the bright idea to use a light pipe to bring these status LEDs to the ousi
 This turned out to be a bit of pain. I had to glue gun the pipes in place, and the inner core of the pipe tended to push out of the outer core when flexed at an angle, which made the inner core stick
 out of the side of the housing. Also, in the process of gluing, I messed up one side and had to pull the glue out. This ripped off the surface mount power LED, which I swapped out. That's why the 
 power LED in the pictures below is blue instead of red. Stiil, the effect is nice, since we need to be able to see if the battery is charged. Note that if you don't want to bother with a light pipe, 
-an easier approach would be panel mounted LEDs and the STAT header on the charging board.
+an easier approach would be panel mounted LEDs using the STAT header on the charging board. See the schematic for more info.
 
 <img src="IMG_9288.jpeg" width="400">
 
 <img src="IMG_9287.jpeg" width="400">
 
 I also wanted a more durable way to provide USB recharging than some of my previous projects. Often with projects like this, I mount the circuit board with the USB jack on the edge of the housing
-and then put a cut out in the housing to plug in a charger. That's fine, but because I was using light pipes, I needed to position the circuit board in the center of the box. So I found the panel
-mount USB plug. These plugs are impressive and durable. Definitely overkill for this proejct. 
+and then put a cut out in the housing to plug in the USB cable. That's fine for some projects, but because I was using light pipes, I needed to position the circuit board in the center of the box. So I found the panel mount USB plug listed in the parts list. These plugs are impressive and durable. Definitely overkill for this proejct. 
 
 A final note. If you look at the schematic of the charging circuit, you'll see that the power LED is tied to the 5V USB input. So if you want a power LED that lights up when you switch the load on,
-you'll need to wire that up separately. Only, while they're labeled "BATT" and "LOAD", either plug can be used for battery and load, they're just wired together. This does mean that when you're
+you'll need to wire that up separately. Also, while they're labeled "BATT" and "LOAD", either plug can be used for the battery and load. They're just wired together. This does mean that when you're
 charging the battery, you should have your load switched off unless you want the charging current to be shared between the load and the battery.
+
+The charging circuit has a couple of features to consider. 1) You can change the default charging current by soldering a resistor onto the board. 2) If you have high-current draw applications, you can 
+also attach a thermistor to the board to monitor temperature. Neither of these applied to my use case.
 
 ![](charger_schematic.png)
