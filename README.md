@@ -34,7 +34,7 @@ This project consists of the following parts
 * AdaFruit [2200 mAh Li-ion battery](https://www.adafruit.com/product/1781)
 * AdaFruit [USB Li-ion battery charger](https://www.adafruit.com/product/259)
 * [USB panel mounted jack](https://www.amazon.com/dp/B082J1BL6H)
-* 1/8 TS jack
+* [1/8 TS jack](https://www.amazon.com/CESS-Female-Socket-Switch-10/dp/B00ZSX761U)
 * [1/8 TS cable](https://www.amazon.com/gp/product/B0749HMSJL?th=1)
 * toggle switch
 * AdaFruit [fiber optic light pipe](https://www.adafruit.com/product/4163)
