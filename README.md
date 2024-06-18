@@ -1,13 +1,19 @@
-# Rechargable Power Supply for a Diode Line Laser
+# Dart Board Toe Line: Rechargable Power Supply for a Diode Line Laser
 
 Do you like throwing darts? I wasted many a good evening in college throwing darts, shooting pool, and drinking beer. I have a dart board in the hallway outside
 the bedrooms in our home, and I wasn't happy with the cheap products sold for projecting a laser line on the floor, so I thought I'd make my own. Fun fact, the 
-dart throwing line is called the *toe line* or *oche*. 
+dart throwing line is called the *toe line* or *oche*. I found a few different green laser line diodes that seem bright enough for a hallway. But these lasers draw 
+a decent amount of current, 50-100 mA depending on the specific laser's power output, so I thought a high capacity rechargeable battery would be a good idea for 
+powering the laser. This simple project is the build out and parts list. Here's what the laser looks like installed:
 
-Anyway, I found a few different green laser line diodes that seem bright enough for a hallway. But these lasers draw a decent amount of current, 50-100 mA depending on the 
-specific laser's power output, so I thought a high capacity rechargeable battery would be a good idea for powering the laser. This simple project is the build out and parts list.
+<img src="IMG_9305.jpeg" width="400">
+
+<img src="IMG_9303.jpeg" width="400">
+
 
 ## Finished Product
+
+<img src="IMG_9304.jpeg" width="400">
 
 This looks boring, I know. it's a box with tethered laser.
 
@@ -29,9 +35,10 @@ This project consists of the following parts
 * [USB panel mounted jack](https://www.amazon.com/dp/B082J1BL6H)
 * 1/8 TS jack
 * [1/8 TS cable](https://www.amazon.com/gp/product/B0749HMSJL?th=1)
-* 5 mW green laser diode with line lens
 * toggle switch
 * AdaFruit [fiber optic light pipe](https://www.adafruit.com/product/4163)
+* 5 mW green laser diode with line lens (more info coming)
+* Laser diode mount (more info coming)
 
 <img src="IMG_9279.jpeg" width="400">
 
