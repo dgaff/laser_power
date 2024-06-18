@@ -4,7 +4,8 @@ Do you like throwing darts? I wasted many a good evening in college throwing dar
 the bedrooms in our home, and I wasn't happy with the cheap products sold for projecting a laser line on the floor, so I thought I'd make my own. Fun fact, the 
 dart throwing line is called the *toe line* or *oche*. I found a few different green laser line diodes that seem bright enough for a hallway. But these lasers draw 
 a decent amount of current, 50-100 mA depending on the specific laser's power output, so I thought a high capacity rechargeable battery would be a good idea for 
-powering the laser. This simple project is the build out and parts list. Here's what the laser looks like installed:
+powering the laser. This simple project is the build out and parts list. Here's what the laser looks like installed. (Ignore that black horizontal box next to 
+the laser...that's a cheap red laser dart line I bought on Amazon. It's a pain to align, and it gets bumped out of place frequently.)
 
 <img src="IMG_9305.jpeg" width="400">
 
